@@ -120,7 +120,7 @@
 // }
 
 // #6 Task
-var number_one = prompt("შეიყვანეთ რიცხვი");
+// var number_one = prompt("შეიყვანეთ რიცხვი");
 var amount = 0;
 for (var i = 0; i <= parseInt(number_one); i++) {
   if (number_one % i === 0 && number_one % number_one === 0) {
