@@ -121,18 +121,29 @@
 
 // #6 Task
 // var number_one = prompt("შეიყვანეთ რიცხვი");
-var amount = 0;
-for (var i = 0; i <= parseInt(number_one); i++) {
-  if (number_one % i === 0 && number_one % number_one === 0) {
-    amount++;
-  } else {
-  }
-}
+// var amount = 0;
+// for (var i = 0; i <= parseInt(number_one); i++) {
+//   if (number_one % i === 0 && number_one % number_one === 0) {
+//     amount++;
+//   } else {
+//   }
+// }
 
-if (amount > 2) {
-  console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის შედგენილია`);
-} else {
-  console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის მარტივია`);
-}
+// if (amount > 2) {
+//   console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის შედგენილია`);
+// } else {
+//   console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის მარტივია`);
+// }
 
-console.log(` თქვენს მიერ არჩეულ რიცხვს აქვს ${amount} გამყოფი `);
+// console.log(` თქვენს მიერ არჩეულ რიცხვს აქვს ${amount} გამყოფი `);
+
+// #6 Task
+
+var number_one = prompt("შეიყვანეთ რიცხვი");
+var faqt = 1;
+
+for (var i = 1; i < parseInt(number_one); i++) {
+  //   faqt *= i;
+  //   console.log(`${faqt} * ${i} = ${(faqt *= i)}`);
+  console.log(`${i} * ${faqt} = ${(faqt *= i)}`);
+}
