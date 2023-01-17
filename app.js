@@ -118,3 +118,21 @@
 //     console.log(i);
 //   }
 // }
+
+// #6 Task
+var number_one = prompt("შეიყვანეთ რიცხვი");
+var amount = 0;
+for (var i = 0; i <= parseInt(number_one); i++) {
+  if (number_one % i === 0 && number_one % number_one === 0) {
+    amount++;
+  } else {
+  }
+}
+
+if (amount > 2) {
+  console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის შედგენილია`);
+} else {
+  console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის მარტივია`);
+}
+
+console.log(` თქვენს მიერ არჩეულ რიცხვს აქვს ${amount} გამყოფი `);
