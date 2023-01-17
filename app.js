@@ -19,17 +19,6 @@
 //   console.log(faqt);
 // }
 
-// #3 Task
-
-// var number_one = 30;
-// var result = 0;
-// for (var i = 1; i < parseInt(number_one); i++) {
-//   console.log(i);
-//   result++;
-// }
-
-// console.log(result);
-
 // #4 Task
 
 // var number1 = parseInt(prompt("Number1"));
@@ -139,11 +128,39 @@
 
 // #6 Task
 
-var number_one = prompt("შეიყვანეთ რიცხვი");
-var faqt = 1;
+// var number_one = prompt("შეიყვანეთ რიცხვი");
+// var faqt = 1;
 
-for (var i = 1; i < parseInt(number_one); i++) {
-  //   faqt *= i;
-  //   console.log(`${faqt} * ${i} = ${(faqt *= i)}`);
-  console.log(`${i} * ${faqt} = ${(faqt *= i)}`);
-}
+// for (var i = 1; i < parseInt(number_one); i++) {
+//   //   faqt *= i;
+//   //   console.log(`${faqt} * ${i} = ${(faqt *= i)}`);
+//   console.log(`${i} * ${faqt} = ${(faqt *= i)}`);
+// }
+
+// #7 Task
+
+// var number_one = 10;
+// var number_one = prompt("შეიყვანეთ რიცხვი");
+
+// for (var i = number_one; i <= number_one; i++) {
+//   for (var j = 1; j <= 10; j++) {
+//     console.log(`${i} X ${j} = ${i * j}`);
+//   }
+// }
+
+// #3 Task
+
+// var userNumber = Number(prompt("Enter user number"));
+// while (userNumber < 2 || userNumber > 100 || isNaN(userNumber)) {
+//   userNumber = Number(prompt("Enter user number"));
+// }
+
+// var sum = 0;
+// var counter = 0;
+// for (var i = 2; i < userNumber; i++) {
+//   sum += i;
+//   counter++;
+// }
+
+// var average = sum / counter;
+// console.log("average : ", average);
