@@ -102,6 +102,8 @@
 //   prompt("შეიყვანეთ რიცხვი 100-დან 200-მდე");
 // }
 
+// var number_one = 100;
+
 // for (var i = 0; i < parseInt(number_one); i++) {
 //   if (number_one % i === 0) {
 //     console.log(i);
@@ -110,21 +112,25 @@
 
 // #6 Task
 // var number_one = prompt("შეიყვანეთ რიცხვი");
-// var amount = 0;
-// for (var i = 0; i <= parseInt(number_one); i++) {
-//   if (number_one % i === 0 && number_one % number_one === 0) {
-//     amount++;
-//   } else {
-//   }
-// }
+var number_one = 1;
+var amount = 0;
+for (var i = 0; i <= parseInt(number_one); i++) {
+  if (number_one % i === 0 && number_one % number_one === 0) {
+    amount++;
+  }
+}
 
-// if (amount > 2) {
-//   console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის შედგენილია`);
-// } else {
-//   console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის მარტივია`);
-// }
+if (amount > 2) {
+  console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის შედგენილია`);
+} else if (amount === 1) {
+  console.log(
+    `თქვენს მიერ შეყვანილი რიცხვი არის ${number_one} და ის არც მარტივია და არც შედგენილი`
+  );
+} else {
+  console.log(`თქვენს მიერ არჩეული რიცხვი ${number_one}-არის და ის მარტივია`);
+}
 
-// console.log(` თქვენს მიერ არჩეულ რიცხვს აქვს ${amount} გამყოფი `);
+console.log(` თქვენს მიერ არჩეულ რიცხვს აქვს ${amount} გამყოფი `);
 
 // #6 Task
 
