@@ -11,13 +11,14 @@
 // #2 Task
 
 // var number_one = prompt("შეიყვანეთ რიცხვი , 50-დან 100-მდე");
+// var number_one = 5;
 // var faqt = 1;
 
 // for (var i = 1; i <= parseInt(number_one); i++) {
 //   //   console.log(i);
 //   faqt *= i;
-//   console.log(faqt);
 // }
+// console.log(faqt);
 
 // #4 Task
 
@@ -112,9 +113,9 @@
 
 // #6 Task
 // var number_one = prompt("შეიყვანეთ რიცხვი");
-// var number_one = 1;
+// var number_one = 10;
 // var amount = 0;
-// for (var i = 0; i <= parseInt(number_one); i++) {
+// for (var i = 1; i <= parseInt(number_one); i++) {
 //   if (number_one % i === 0 && number_one % number_one === 0) {
 //     amount++;
 //   }
@@ -132,7 +133,7 @@
 
 // console.log(` თქვენს მიერ არჩეულ რიცხვს აქვს ${amount} გამყოფი `);
 
-// #6 Task
+// #7 Task
 
 // var number_one = prompt("შეიყვანეთ რიცხვი");
 // var faqt = 1;
@@ -143,7 +144,7 @@
 //   console.log(`${i} * ${faqt} = ${(faqt *= i)}`);
 // }
 
-// #7 Task
+// #8 Task
 
 // var number_one = 10;
 // var number_one = prompt("შეიყვანეთ რიცხვი");
@@ -157,13 +158,13 @@
 // #3 Task
 
 // var userNumber = Number(prompt("Enter user number"));
-// while (userNumber < 2 || userNumber > 100 || isNaN(userNumber)) {
+// while (userNumber < 70 || userNumber > 100 || isNaN(userNumber)) {
 //   userNumber = Number(prompt("Enter user number"));
 // }
 
 // var sum = 0;
 // var counter = 0;
-// for (var i = 2; i < userNumber; i++) {
+// for (var i = 0; i < userNumber; i++) {
 //   sum += i;
 //   counter++;
 // }
